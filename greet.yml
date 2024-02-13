@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: manager
+    url: jdbc:mysql://localhost:3306/sbms_DB
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
